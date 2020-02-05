@@ -1,6 +1,8 @@
 # DM - Servers.json
 
-Copia o arquivo local de servidores (servers.json) para a pasta '.totvsls' do usuário. A extensão é ativada apenas se encontrar o arquivo 'servers.json' na pasta '.vscode' do projeto corrente.
+Copia o arquivo local de servidores (servers.json) para a pasta '.totvsls' do usuário sempre que o projeto é aberto. A extensão é ativada apenas se encontrar o arquivo 'servers.json' na pasta '.vscode' do projeto corrente.
+
+Desta forma, podemos manter as configurações de servidores separadas por projeto.
 
 **Download**
 ```
