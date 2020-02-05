@@ -32,8 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
 export function deactivate() {}
 
 // ---
-// Copia o arquivo local para a pasta
-// vista pelo TDS
+// Copia o arquivo local para a pasta .totvsls
 function swapFile() {
 	let exist = fs.existsSync(localFile);
 	if (exist) {
